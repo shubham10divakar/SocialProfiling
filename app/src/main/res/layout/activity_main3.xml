@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--<lecho.lib.hellocharts.view.PieChartView-->
+            <!--android:id="@+id/chart"-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="300dp" />-->
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="25dp"-->
+            <!--android:text="&#45;&#45;3°Burn&#45;&#45;2°Burn&#45;&#45;1°Burn&#45;&#45;"-->
+            <!--android:textColor="@color/colorAccent"-->
+            <!--android:id="@+id/q101"/>-->
+
+            <TableRow
+                android:id="@+id/tabla_cabecera"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TableRow>
+
+            <TableLayout
+                android:id="@+id/tabla_cuerpo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textView031"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="Customer"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/coloryellow"></TextView>
+
+                    <TextView
+                        android:id="@+id/textView31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="Online Amt Spent"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/coloryellow"></TextView>
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="Offline Amt Spent"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/coloryellow"></TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="A1"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/coloryellow"></TextView>
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="16000"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/coloryellow"></TextView>
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="50502"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/coloryellow"></TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textView311"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="A2"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/coloryellow"></TextView>
+
+                    <TextView
+                        android:id="@+id/textView332"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="10000"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/coloryellow"></TextView>
+
+                    <TextView
+                        android:id="@+id/textView333"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="100000"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/coloryellow"></TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textView41"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="A3"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/coloryellow"></TextView>
+
+                    <TextView
+                        android:id="@+id/textView42"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="20000"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/coloryellow"></TextView>
+
+                    <TextView
+                        android:id="@+id/textView43"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="86000"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/coloryellow"></TextView>
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textView51"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="A4"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/coloryellow"></TextView>
+
+                    <TextView
+                        android:id="@+id/textView52"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="13980"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/coloryellow"></TextView>
+
+                    <TextView
+                        android:id="@+id/textView53"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="67890"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/coloryellow"></TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textView61"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="A5"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/coloryellow"></TextView>
+
+                    <TextView
+                        android:id="@+id/textView62"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="19098"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/coloryellow"></TextView>
+
+                    <TextView
+                        android:id="@+id/textView63"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:text="89000"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/coloryellow"></TextView>
+                </TableRow>
+
+
+            </TableLayout>
+
+
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="20dp"-->
+            <!--android:text="&#45;&#45;3°Burn&#45;&#45;2°Burn&#45;&#45;1°Burn&#45;&#45;(Order)"-->
+            <!--android:textColor="@color/colorAccent"-->
+            <!--android:id="@+id/q100"/>-->
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="20dp"-->
+            <!--android:id="@+id/q1"/>-->
+
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="20dp"-->
+            <!--android:id="@+id/q2"/>-->
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="20dp"-->
+            <!--android:id="@+id/q3"/>-->
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="20dp"-->
+            <!--android:id="@+id/q4"/>-->
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="20dp"-->
+            <!--android:id="@+id/q5"/>-->
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="20dp"-->
+            <!--android:id="@+id/q6"/>-->
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="20dp"-->
+            <!--android:id="@+id/q7"/>-->
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="20dp"-->
+            <!--android:id="@+id/q8"/>-->
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="20dp"-->
+            <!--android:id="@+id/q9"/>-->
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="20dp"-->
+            <!--android:id="@+id/q10"/>-->
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="20dp"-->
+            <!--android:id="@+id/q11"/>-->
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="20dp"-->
+            <!--android:id="@+id/q12"/>-->
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="20dp"-->
+            <!--android:id="@+id/q13"/>-->
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="20dp"-->
+            <!--android:id="@+id/q14"/>-->
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="20dp"-->
+            <!--android:id="@+id/q15"/>-->
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="20dp"-->
+            <!--android:id="@+id/q16"/>-->
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
